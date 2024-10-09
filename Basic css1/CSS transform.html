@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Transform</title>
+    <style>
+        .box{
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: aqua;
+            border: 2px solid black;
+            border-radius: 10px;
+            text-align: center;
+
+            transition: all 0.5s ease-in;
+        }
+        #box1:hover{
+            transform: rotate(25deg);
+            background-color: blue;
+        }
+        #box2:hover{
+            transform: scale(2);
+            background-color: blue;
+        }
+        #box3:hover{
+            /* translate: 50px; */
+            translate: -50px;
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div id="box1" class="box">Rotet</div>
+    <div id="box2" class="box">Scale</div>
+    <div id="box3" class="box">Translate</div>
+
+
+</body>
+</html>

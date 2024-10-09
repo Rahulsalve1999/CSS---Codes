@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position Property</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .box{
+            height: 60px;
+            width: 60px;
+            background-color: slateblue;
+            margin: 5px;
+        }
+        #static{
+            position:static;
+        }
+        #relative{
+            position: relative;
+            top: 10px;
+            left: 50px;
+        }
+        #absolute{
+            position: absolute;
+            top: 20px;
+        }
+        #fixed{
+            position: fixed;
+        }
+    </style>
+</head>
+<body>
+    <div id="static" class="box">Static</div>
+    <div id="relative" class="box">Relative</div>
+    <div id="fixed" class="box">Fixed</div>
+    <div id="absolute" class="box">Absolute</div>
+</body>
+</html>

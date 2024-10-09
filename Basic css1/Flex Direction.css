@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align:center;
+}
+#container{
+    height: 1000px;
+    width: 1000px;
+    background-color: lightblue;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid black;
+    
+    /* display: flex;
+    flex-direction: column;
+    flex-direction: column-reverse;
+    flex-direction: row;
+    flex-direction: row-reverse; */
+}
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    margin: 10px;
+    border: 2px solid black;
+    
+}
